@@ -1,0 +1,6 @@
+Firmware Adaptation:
+Due to a changed nozzle position it is recommended to change the following parameter in your configuration.h file:
+#define X_MIN_POS -10
+NOTE: If this parameter is not changed, all prints will be shifted around 1 cm to the right.
+
+If you added a sensor holder, you also have to adapt the probe position in the firmware correspondingly!
